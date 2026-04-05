@@ -1,0 +1,12 @@
+# Driver Drowsiness Detection — Python dependencies
+# Install with: pip install -r requirements.txt
+#
+# NumPy: use official PyPI wheels only. If you see "Numpy built with MINGW-W64"
+# or Python exits when running main.py, reinstall NumPy (see README.md).
+#
+# MediaPipe: Python 3.13 on Windows only ships the Tasks API (no mp.solutions).
+# This project uses FaceLandmarker; 0.10.33+ loads correctly on Windows — avoid 0.10.30.
+
+opencv-python>=4.8.0,<5.0.0
+mediapipe>=0.10.33,<0.11.0
+numpy>=2.0.0,<2.2.0
