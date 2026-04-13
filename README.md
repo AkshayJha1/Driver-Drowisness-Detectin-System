@@ -31,6 +31,20 @@ This project is a real-time driver drowsiness detection system built using Pytho
 
 ---
 
+## 🔹 Project Structure
+
+    ├── main.py
+    ├── face_tracker.py
+    ├── utils.py
+    ├── backend/
+    │   ├── fatigue_engine.py
+    │   └── database.py
+    ├── models/
+    ├── requirements.txt
+    └── fatigue_logs.db
+
+---
+
 ## 🔹 Working
 
 1. Webcam captures real-time frames.
@@ -176,20 +190,6 @@ Used for:
 - If fatigue is high:
   - Red alert on screen  
   - Beep sound  
-
----
-
-## 🔹 Project Structure
-
-    ├── main.py
-    ├── face_tracker.py
-    ├── utils.py
-    ├── backend/
-    │   ├── fatigue_engine.py
-    │   └── database.py
-    ├── models/
-    ├── requirements.txt
-    └── fatigue_logs.db
 
 ---
 
